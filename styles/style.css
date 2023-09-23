@@ -2,8 +2,8 @@ body {
 background-color: #FFFFFF;
 max-width: 1440px;
 }
-.header
-{   width:100%;
+.header {   
+    width:100%;
     display:grid;
     grid-template-columns: 388px 0.27fr 0.32fr;
     grid-template-rows: 109px;
@@ -280,6 +280,8 @@ letter-spacing:30px;
 }
 .footer__social-list {
     grid-area:links;
+    display:flex;
+    justify-content: space-between;
 }
 .footer__menu-list {
     text-align: center;
@@ -294,11 +296,6 @@ letter-spacing:30px;
 }
 .footer__menu-link_active {
     text-decoration: none;
-}
-.footer__social-list {
-    display:flex;
-    justify-content: space-between;
-
 }
 .footer__social-list-item {
     list-style: none;
