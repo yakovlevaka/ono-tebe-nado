@@ -267,7 +267,7 @@ letter-spacing:30px;
     line-height:23.48px;
 }
 .footer {
-    max-width:1440px;
+    width:100%;
     display:grid;
     grid-template-columns: 255px 0.25fr 0.21fr;
     grid-template-rows: 109px;
