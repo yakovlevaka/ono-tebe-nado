@@ -267,7 +267,7 @@ text-transform: uppercase;
 }
 .footer {
     display:grid;
-    grid-template-columns: 1fr min-content 1fr;;
+    grid-template-columns: 1fr min-content 1fr;
     grid-template-areas: "address list links";
     place-content: center space-between;
     gap:355px;
