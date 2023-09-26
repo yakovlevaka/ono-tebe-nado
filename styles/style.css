@@ -14,7 +14,7 @@ max-width: 1440px;
 }
 .header__links-list-item {
     list-style: circle;
-    font-size:18px;
+    font-size:18px;    
 }
 .header__links-list-item_no-bullit {
     list-style: none;
@@ -27,7 +27,7 @@ max-width: 1440px;
     border-bottom: none;
 }
 .header__logo {
-    width:148px;
+    width:135px;
 }
 .address {
     max-width:240px;
@@ -40,11 +40,11 @@ max-width: 1440px;
 }
 .address a {
    border-bottom: 1px solid;
-   text-decoration: none;
+   text-decoration: none; 
 }
+
 .cover {
     position:relative;
-    margin-top:96px;
     background-image: url(../images/cover.jpg);
     background-position: center;
     background-size: cover;
